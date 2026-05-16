@@ -65,5 +65,20 @@ public class Main {
             var remains = n % m;
             System.out.println("Остаток от деления между двумя весами" + remains + "кг!");
 
+            var openingHours = 640;
+            var hour = 8;
+            var workers = openingHours / hour;
+            System.out.println("Всего работников в компании - " + workers);
+
+            var human = 80;
+            var more = 94;
+            var hours = 8;
+            var general = human + more;
+            var generalHours = general * hours;
+            System.out.println("Если в компании работает  " + general + " человек, то всего " + generalHours + " часов работы может быть поделено между сотрудниками");
+
+
+
+
     }
 }
